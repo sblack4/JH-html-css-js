@@ -1,0 +1,98 @@
+/*
+*{
+    border:1px solid;
+}
+*/
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+#header-nav {
+    background-color: azure;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {}
+
+.navbar-brand {
+    padding-top: 25px;
+    text-align: center;
+    display: -webkit-flex;
+    display: center;
+}
+
+.navbar-brand h1 {
+    font-family: sans-serif;
+    color: dodgerblue;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.items {
+    display: inline-block;
+    width: 76px;
+    margin-bottom: 2px;
+    box-shadow: 0 1px 5px 1px #cccccc;
+    display: inline-block;
+}
+
+.item:hover,
+.items:focus {
+    opacity: 80%;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+.page-header {
+    border: none;
+}
+
+.food {
+    background-color: darksalmon;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 5px 1px #cccccc;
+    display: inline-block;
+}
+
+.food p {
+    padding: 10px;
+}
