@@ -1,0 +1,60 @@
+
+    /*========================= Base  =========================*/
+    div {
+        /*    outline: #00FF00 dotted thick;*/
+        margin: 10px;
+        padding:10px;
+}
+.menu {
+    text-align: center;
+}
+.item {
+    display: block;
+    /*    width: 30%;*/
+    border: 1px solid; 
+    background-color: darkgrey;
+    margin:10px 20px 30px 20px;
+}
+.header {
+    float: right;
+    border: 1px solid;
+    display: block;
+    margin-top: 0px;
+
+}
+.headline{
+    display: block;
+    margin: 0px 0px 60px 0px;
+    padding-top: 0px;
+}
+p {
+    display: block;
+}
+#chicken {
+    background-color: antiquewhite;
+}
+#beef {
+    background-color:chocolate;
+    /*    TODO turn text white */
+    color: white;
+    border-color: black
+}
+#sushi{
+    background-color: bisque;
+}
+
+/*========================= Large Devices =========================*/
+@media (min-width: 992px){
+    #one, #two, #three {
+        width: 27%; 
+        display: inline-block;
+    }
+}
+
+/*========================= Tabelet Devices =========================*/
+@media (min-width: 768px) and (max-width: 991px){
+    #one, #two {
+        width: 43%; 
+        display: inline-block;
+    }
+} 
